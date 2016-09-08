@@ -532,7 +532,6 @@ cautions['pos']
 # 
 # Here, I reshaped the data and saved the data in JSON format to import it to the MongoDB.
 
-# In[ ]:
 
 
 # to save datetime object in json: referred> https://stackoverflow.com/questions/11875770/how-to-overcome-datetime-datetime-not-json-serializable-in-python
@@ -630,7 +629,6 @@ print cautions['height']
 # "mongoimport --db p3(:db name) --collection new_york(:collection name) --file datafile.json"
 # 
 
-# In[32]:
 
 ### Connecting to my MongoDB db, 'p3'
 
@@ -639,7 +637,6 @@ client = MongoClient()
 
 db = client.p3
 collection = 'new_york'
-#collection = 'sample_ny'
 
 
 # ### CREATING INDEXES
@@ -735,7 +732,7 @@ print
 print name,"'s location: ", position
 
 
-# In[36]:
+
 
 ### Query a 2d Index: https://docs.mongodb.com/manual/tutorial/query-a-2d-index/
 
@@ -746,10 +743,3 @@ result = db[collection].find(query).limit(5)
 for doc in result:
     print
     pprint.pprint(doc)
-    
-
-
-# In[ ]:
-
-
-
