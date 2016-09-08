@@ -3,7 +3,7 @@
 This project extracted and cleaned OpenStreetMap data of New York area provided at [MapZen] (https://mapzen.com/data/metro-extracts/) and stored it into MongoDB so that users can explore quality data fast.
 
 
-- [Report] (https://github.com/jinalee2531/Wrangling-OpenStreet-Map-Data-with-MongoDB/blob/master/P3_documentation_new.pdf)
+- [Report] (https://github.com/jinalee2531/Wrangling-OpenStreet-Map-Data-with-MongoDB/P3_documentation.pdf)
 - [Source Code(python)] (https://github.com/jinalee2531/Wrangling-OpenStreet-Map-Data-with-MongoDB/blob/master/Project_3.py)
 
 ### Reference
