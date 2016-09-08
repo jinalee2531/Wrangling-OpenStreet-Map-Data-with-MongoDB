@@ -1,3 +1,0 @@
-New York data from MapZen (https://mapzen.com/data/metro-extracts/)
-
-I chose this data because it is my interested area and its size is over 50MB.
